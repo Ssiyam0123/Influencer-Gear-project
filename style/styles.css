@@ -138,10 +138,44 @@ text-align: right;
 margin-top: 50px;
 margin-right: 20px;
 }
-
-
-
-
+.p-3{
+    width: 80%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.p-3-img{
+    
+    width: 100%;
+    
+}
+.p-3-pera{
+    
+    width: 55%;
+    
+}
+.p-3-pera h1{
+    color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 38px;
+font-weight: 700;
+}
+.p-3-pera p{
+    color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+}
+.btn-2{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+background: rgb(224, 44, 109);
+border: none;
+padding: 10px 40px 10px 20px;
+}
 
 
 
@@ -184,7 +218,16 @@ margin-right: 20px;
         grid-template-columns: repeat(1 , 1fr);
         gap: 15px;
     }
-   
+    .p-3{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .p-3-pera{
+        margin-bottom: 20px;
+    }
     
 }
 
