@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+header{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+nav h1{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+}
+nav ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+}
+.p-1-middle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.p-1-left-middle{
+    /* border: 2px solid black; */
+    width: 50%;
+}
+.p-1-right-middle{
+    width: 30%;
+    margin: 0 auto;
+    background-image: url( ../images/Circle\ design.svg );
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+.camera{
+    /* border: 2px solid green; */
+    width: 100%;
+}
+.p-1-middle h1{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 52px;
+font-weight: 700;
+margin-bottom: 40px;
+}
+.p-1-middle p{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+margin-bottom: 70px;
+}
+.btn-1{
+    border-radius: 41px;
+
+background: rgb(224, 44, 109);
+border: none;
+padding: 10px 20px 10px 15px;
+}
+.page-1-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .p-1-middle{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .p-1-right-middle{
+        width: fit-content;
+
+    }
+    .page-1-icons{
+        /* display: flex;
+        flex-wrap: wrap;
+        gap: 10px; */
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 20px;
+    }
+    .p-1-left-middle{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;  
+        border: 2px   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+
+  .p-1-right-middle{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    }
+.camera{
+    width: 100%;
+}
+
+
+
+}
