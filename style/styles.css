@@ -76,8 +76,68 @@ padding: 10px 20px 10px 15px;
     justify-content: space-around;
     margin-top: 60px;
 }
-
-
+main{
+    width: 75%;
+    margin: 0 auto;
+}
+.p-2{
+    margin-top: 100px;
+    text-align: center;
+}
+.p-2-heading{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 15px;
+}
+.card h1{
+    color: rgb(24, 25, 31);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 500;
+}
+.card p{
+    color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+}
+.para{
+    color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: xx-small;
+opacity: 0.8;
+width: 95%;
+margin: 0 auto;
+text-align: center;
+}
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+text-align: right;
+margin-top: 50px;
+margin-right: 20px;
+}
 
 
 
@@ -98,7 +158,7 @@ padding: 10px 20px 10px 15px;
         flex-direction: column-reverse;
     }
     .p-1-right-middle{
-        width: fit-content;
+        width: 90%;
 
     }
     .page-1-icons{
@@ -119,6 +179,13 @@ padding: 10px 20px 10px 15px;
         text-align: center;  
         border: 2px   
     }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 15px;
+    }
+   
+    
 }
 
 
@@ -143,7 +210,7 @@ padding: 10px 20px 10px 15px;
 
     }
 .camera{
-    width: 100%;
+    width: 90%;
 }
 
 
