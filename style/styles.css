@@ -276,6 +276,9 @@ font-weight: 700;
     .btn-2{
         margin-bottom: 50px;
     }
+    footer{
+        gap: 10px;
+    }
 }
 
 
