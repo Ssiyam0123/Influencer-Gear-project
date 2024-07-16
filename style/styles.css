@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
 
+button{
+    cursor: pointer;
+}
 
 header{
     width: 90%;
@@ -26,6 +30,7 @@ nav li{
 font-family: Poppins;
 font-size: 16px;
 font-weight: 600;
+cursor: pointer;
 }
 .p-1-middle{
     display: flex;
@@ -102,6 +107,7 @@ margin-bottom: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding-top: 30px;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 .card-container{
     display: grid;
@@ -137,6 +143,7 @@ font-weight: 700;
 text-align: right;
 margin-top: 50px;
 margin-right: 20px;
+cursor: pointer;
 }
 .p-3{
     width: 80%;
@@ -174,9 +181,32 @@ font-size: 16px;
 font-weight: 700;
 background: rgb(224, 44, 109);
 border: none;
-padding: 10px 40px 10px 20px;
+padding: 10px 30px 10px 20px;
+border-radius: 5px;
 }
-
+footer{
+    width: 100%;
+    background-color: #0A0826;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 100px;
+}
+footer h1{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+}
+footer p{
+    color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+}
 
 
 @media screen and (max-width: 576px){
@@ -228,7 +258,9 @@ padding: 10px 40px 10px 20px;
     .p-3-pera{
         margin-bottom: 20px;
     }
-    
+    .card{
+        margin-bottom: 30px;
+    }
 }
 
 
