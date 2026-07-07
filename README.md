@@ -1,6 +1,6 @@
 # Influencer-Gear-project
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://ssiyam0123.github.io/Influencer-Gear-project/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://siyam-io.github.io/Influencer-Gear-project/)
 
 Influencer Gear is a modern, responsive showcase portal designed for online content creators and influencers, featuring popular collections of equipment (tripods, microphones, cameras, light setups), featured product listings, and corporate sponsors.
 
