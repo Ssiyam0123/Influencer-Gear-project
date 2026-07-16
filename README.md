@@ -1,6 +1,6 @@
 # Influencer-Gear-project
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://siyam-io.github.io/Influencer-Gear-project/)
+**Live Demo:** [https://siyam-influencer-gear-project.vercel.app/](https://siyam-influencer-gear-project.vercel.app/)
 
 Influencer Gear is a modern, responsive showcase portal designed for online content creators and influencers, featuring popular collections of equipment (tripods, microphones, cameras, light setups), featured product listings, and corporate sponsors.
 
@@ -14,3 +14,5 @@ Influencer Gear is a modern, responsive showcase portal designed for online cont
 - HTML5
 - CSS3 (Vanilla Custom Responsive Stylesheet)
 - Font: Poppins & Inter (Google Fonts)
+
+
